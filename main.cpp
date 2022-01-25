@@ -49,7 +49,6 @@ int main()
     gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
     gpio_set_function(PICO_DEFAULT_SPI_RX_PIN, GPIO_FUNC_SPI);
     gpio_set_function(SPI_CSN_PIN, GPIO_FUNC_SPI);
-
     spi_set_format(spi0,8,SPI_CPOL_0,SPI_CPHA_0,SPI_LSB_FIRST);
     spi_set_slave(spi0, true);
 
@@ -88,6 +87,7 @@ int main()
             printf("pulldown status%d\n",gpio_is_pulled_down(PICO_DEFAULT_SPI_TX_PIN));
 
             // missing a line where the contents of input goes into textBuffer
+            sprintf(textBuffer,"%s",input);
 
             // // clear whatever is on the screen (old text)
             drawText(&display, font_12x16,textBuffer, 0, 0, pico_ssd1306::WriteMode::SUBTRACT); // add the text
