@@ -1076,9 +1076,9 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
  .text._ZN12pico_ssd13068drawCharEPNS_7SSD1306EPKhchhNS_9WriteModeENS_8RotationE
                 0x0000000000000000       0x24 pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
- .text          0x0000000000000000        0x0 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//ccaK3LQy.o
- .data          0x0000000000000000        0x0 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//ccaK3LQy.o
- .bss           0x0000000000000000        0x0 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//ccaK3LQy.o
+ .text          0x0000000000000000        0x0 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//cciIL8YV.o
+ .data          0x0000000000000000        0x0 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//cciIL8YV.o
+ .bss           0x0000000000000000        0x0 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//cciIL8YV.o
  .data          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
@@ -1213,7 +1213,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//ccaK3LQy.o
+ .boot2         0x0000000010000000      0x100 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//cciIL8YV.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -1280,619 +1280,620 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002c4       0x48 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x000000001000030c      0x1a4 CMakeFiles/multi_spi.dir/main.cpp.obj
+                0x000000001000030c      0x1a0 CMakeFiles/multi_spi.dir/main.cpp.obj
                 0x000000001000030c                main
  .text.i2c_set_baudrate
-                0x00000000100004b0       0xc4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x00000000100004b0                i2c_set_baudrate
+                0x00000000100004ac       0xc4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00000000100004ac                i2c_set_baudrate
  .text.i2c_init
-                0x0000000010000574       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x0000000010000574                i2c_init
+                0x0000000010000570       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x0000000010000570                i2c_init
  .text.i2c_write_blocking
-                0x00000000100005c8       0xd0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x00000000100005c8                i2c_write_blocking
+                0x00000000100005c4       0xd0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00000000100005c4                i2c_write_blocking
  .text.hw_claim_or_assert
-                0x0000000010000698       0x44 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000698                hw_claim_or_assert
+                0x0000000010000694       0x44 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000694                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x00000000100006dc       0x9c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100006dc                hw_claim_unused_from_range
+                0x00000000100006d8       0x9c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100006d8                hw_claim_unused_from_range
  .text.running_on_fpga
-                0x0000000010000778       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x0000000010000778                running_on_fpga
+                0x0000000010000774       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000774                running_on_fpga
  .text.spin_locks_reset
-                0x0000000010000788       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000788                spin_locks_reset
+                0x0000000010000784       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000784                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100007a4       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100007a4                next_striped_spin_lock_num
+                0x00000000100007a0       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100007a0                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x00000000100007bc       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100007bc                spin_lock_claim_unused
+                0x00000000100007b8       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100007b8                spin_lock_claim_unused
  .text.gpio_set_function
-                0x00000000100007dc       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x00000000100007dc                gpio_set_function
+                0x00000000100007d8       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100007d8                gpio_set_function
  .text.gpio_set_pulls
-                0x000000001000080c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x000000001000080c                gpio_set_pulls
+                0x0000000010000808       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000808                gpio_set_pulls
  .text.timer_pool_entry_comparator
-                0x000000001000083c       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000083c                timer_pool_entry_comparator
+                0x0000000010000838       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000838                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x0000000010000870       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000086c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x00000000100008a0      0x100 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000089c      0x100 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x00000000100009a0      0x1c8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000099c      0x1c8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x0000000010000b68      0x11c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000b64      0x11c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000c84       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000c84                alarm_pool_init_default
+                0x0000000010000c80       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c80                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010000ce8        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000ce8                alarm_pool_get_default
+                0x0000000010000ce4        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000ce4                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000cf0      0x194 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000cf0                alarm_pool_add_alarm_at
+                0x0000000010000cec      0x194 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000cec                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x0000000010000e84       0xac CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000e84                sleep_until
+                0x0000000010000e80       0xac CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e80                sleep_until
  .text.sleep_ms
-                0x0000000010000f30       0x38 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000f30                sleep_ms
+                0x0000000010000f2c       0x38 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000f2c                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010000f68       0xd4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000f68                best_effort_wfe_or_timeout
+                0x0000000010000f64       0xd4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000f64                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x000000001000103c       0xb8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001038       0xb8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x00000000100010f4       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100010f4                hardware_alarm_claim
+                0x00000000100010f0       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100010f0                hardware_alarm_claim
  .text.time_us_64
-                0x000000001000110c       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000110c                time_us_64
+                0x0000000010001108       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001108                time_us_64
  .text.busy_wait_until
-                0x0000000010001120       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001120                busy_wait_until
+                0x000000001000111c       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000111c                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010001140       0x8c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001140                hardware_alarm_set_callback
+                0x000000001000113c       0x8c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000113c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x00000000100011cc       0xe0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100011cc                hardware_alarm_set_target
+                0x00000000100011c8       0xe0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100011c8                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x00000000100012ac       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100012ac                hardware_alarm_cancel
+                0x00000000100012a8       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100012a8                hardware_alarm_cancel
  .text.lock_init
-                0x00000000100012e8       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x00000000100012e8                lock_init
+                0x00000000100012e4       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x00000000100012e4                lock_init
  .text.mutex_init
-                0x00000000100012f8       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x00000000100012f8                mutex_init
+                0x00000000100012f4       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x00000000100012f4                mutex_init
  .text.recursive_mutex_init
-                0x0000000010001314       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001314                recursive_mutex_init
+                0x0000000010001310       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001310                recursive_mutex_init
  .text.critical_section_init
-                0x0000000010001330       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010001330                critical_section_init
+                0x000000001000132c       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x000000001000132c                critical_section_init
  .text.ph_merge_nodes
-                0x0000000010001350       0x68 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x000000001000134c       0x68 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x00000000100013b8       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100013b8                ph_post_alloc_init
+                0x00000000100013b4       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100013b4                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x00000000100013f4       0x90 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100013f4                ph_merge_two_pass
+                0x00000000100013f0       0x90 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100013f0                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010001484       0xf8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001480       0xf8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x000000001000157c       0xfc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x000000001000157c                ph_remove_head
+                0x0000000010001578       0xfc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001578                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010001678       0x7c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001678                ph_remove_and_free_node
+                0x0000000010001674       0x7c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001674                ph_remove_and_free_node
  .text.runtime_init
-                0x00000000100016f4       0xf0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100016f4                runtime_init
- .text._sbrk    0x00000000100017e4       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100017e4                _sbrk
- .text.exit     0x0000000010001818        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001818                exit
- .text.panic    0x000000001000181c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000181c                panic
+                0x00000000100016f0       0xf0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100016f0                runtime_init
+ .text._sbrk    0x00000000100017e0       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100017e0                _sbrk
+ .text.exit     0x0000000010001814        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001814                exit
+ .text.panic    0x0000000010001818       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001818                panic
  .text.hard_assertion_failure
-                0x000000001000184c        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000184c                hard_assertion_failure
+                0x0000000010001848        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001848                hard_assertion_failure
  .text.clocks_init
-                0x0000000010001858      0x2bc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001858                clocks_init
+                0x0000000010001854      0x2bc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001854                clocks_init
  .text.clock_get_hz
-                0x0000000010001b14        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001b14                clock_get_hz
+                0x0000000010001b10        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001b10                clock_get_hz
  .text.irq_set_enabled
-                0x0000000010001b20       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b20                irq_set_enabled
+                0x0000000010001b1c       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b1c                irq_set_enabled
  .text.irq_set_pending
-                0x0000000010001b44       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b44                irq_set_pending
+                0x0000000010001b40       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b40                irq_set_pending
  .text.irq_get_vtable_handler
-                0x0000000010001b54       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b54                irq_get_vtable_handler
+                0x0000000010001b50       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b50                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x0000000010001b64       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001b64                irq_set_exclusive_handler
+                0x0000000010001b60       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001b60                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x0000000010001bb8      0x1b4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001bb8                irq_remove_handler
+                0x0000000010001bb4      0x1b4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001bb4                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010001d6c       0xb4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001d6c                irq_add_tail_to_free_list
+                0x0000000010001d68       0xb4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001d68                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010001e20       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010001e20                irq_init_priorities
+                0x0000000010001e1c       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010001e1c                irq_init_priorities
  .text.pll_init
-                0x0000000010001e44       0xa8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001e44                pll_init
+                0x0000000010001e40       0xa8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001e40                pll_init
  .text.watchdog_start_tick
-                0x0000000010001eec       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001eec                watchdog_start_tick
+                0x0000000010001ee8       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001ee8                watchdog_start_tick
  .text.watchdog_reboot
-                0x0000000010001efc       0x98 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001efc                watchdog_reboot
+                0x0000000010001ef8       0x98 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001ef8                watchdog_reboot
  .text.xosc_init
-                0x0000000010001f94       0x28 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001f94                xosc_init
+                0x0000000010001f90       0x28 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001f90                xosc_init
  .text._out_null
-                0x0000000010001fbc        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001fb8        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x0000000010001fc0       0x9c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001fbc       0x9c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x000000001000205c      0x1cc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002058      0x1cc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x0000000010002228       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002224       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010002238       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x0000000010002248      0x44c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010002694      0x398 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002234       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x0000000010002244      0x44c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002690      0x398 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010002a2c      0xb04 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002a28      0xb04 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x0000000010003530       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003530                vfctprintf
+                0x000000001000352c       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000352c                vfctprintf
  .text.weak_raw_vprintf
-                0x0000000010003550       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010003550                weak_raw_vprintf
- .text          0x0000000010003580       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x000000001000354c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000354c                weak_raw_vprintf
+ .text          0x000000001000357c       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010003590       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010003590                rom_func_lookup
+                0x000000001000358c       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000358c                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100035a0       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100035a0                rom_data_lookup
+                0x000000001000359c       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x000000001000359c                rom_data_lookup
  .text.rom_funcs_lookup
-                0x00000000100035b0       0x44 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100035b0                rom_funcs_lookup
+                0x00000000100035ac       0x44 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100035ac                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x00000000100035f4       0x50 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100035f4                __wrap___aeabi_idivmod
-                0x00000000100035f4                divmod_s32s32
-                0x00000000100035f4                div_s32s32
-                0x00000000100035f4                __wrap___aeabi_idiv
-                0x00000000100035fc                divmod_s32s32_unsafe
-                0x0000000010003628                divmod_s32s32_savestate
+                0x00000000100035f0       0x50 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100035f0                __wrap___aeabi_idivmod
+                0x00000000100035f0                divmod_s32s32
+                0x00000000100035f0                div_s32s32
+                0x00000000100035f0                __wrap___aeabi_idiv
+                0x00000000100035f8                divmod_s32s32_unsafe
+                0x0000000010003624                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010003644       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003644                __wrap___aeabi_uidiv
-                0x0000000010003644                __wrap___aeabi_uidivmod
-                0x0000000010003644                div_u32u32
-                0x0000000010003644                divmod_u32u32
-                0x000000001000364c                divmod_u32u32_unsafe
-                0x0000000010003674                divmod_u32u32_savestate
+                0x0000000010003640       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003640                __wrap___aeabi_uidiv
+                0x0000000010003640                __wrap___aeabi_uidivmod
+                0x0000000010003640                div_u32u32
+                0x0000000010003640                divmod_u32u32
+                0x0000000010003648                divmod_u32u32_unsafe
+                0x0000000010003670                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010003690      0x434 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003690                __wrap___aeabi_ldivmod
-                0x0000000010003690                div_s64s64
-                0x0000000010003690                divmod_s64s64
-                0x00000000100036c8                divmod_u64u64
-                0x00000000100036c8                div_u64u64
-                0x00000000100036c8                __wrap___aeabi_uldivmod
-                0x00000000100036d8                divmod_u64u64_savestate
-                0x0000000010003700                divmod_s64s64_unsafe
-                0x0000000010003788                divmod_u64u64_unsafe
+                0x000000001000368c      0x434 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000368c                __wrap___aeabi_ldivmod
+                0x000000001000368c                div_s64s64
+                0x000000001000368c                divmod_s64s64
+                0x00000000100036c4                divmod_u64u64
+                0x00000000100036c4                div_u64u64
+                0x00000000100036c4                __wrap___aeabi_uldivmod
+                0x00000000100036d4                divmod_u64u64_savestate
+                0x00000000100036fc                divmod_s64s64_unsafe
+                0x0000000010003784                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010003ac4       0x60 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003ac4                __wrap___aeabi_drsub
-                0x0000000010003aca                __wrap___aeabi_dsub
-                0x0000000010003ad4                __wrap___aeabi_dadd
-                0x0000000010003ade                __wrap___aeabi_ddiv
-                0x0000000010003b12                __wrap___aeabi_dmul
+                0x0000000010003ac0       0x60 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003ac0                __wrap___aeabi_drsub
+                0x0000000010003ac6                __wrap___aeabi_dsub
+                0x0000000010003ad0                __wrap___aeabi_dadd
+                0x0000000010003ada                __wrap___aeabi_ddiv
+                0x0000000010003b0e                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010003b24       0x6c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b24                __wrap___aeabi_cdrcmple
-                0x0000000010003b34                __wrap___aeabi_cdcmple
-                0x0000000010003b34                __wrap___aeabi_cdcmpeq
+                0x0000000010003b20       0x6c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b20                __wrap___aeabi_cdrcmple
+                0x0000000010003b30                __wrap___aeabi_cdcmple
+                0x0000000010003b30                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003b90        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b90                __wrap___aeabi_dcmplt
+                0x0000000010003b8c        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b8c                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003b9c       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003b9c                __wrap___aeabi_dcmple
+                0x0000000010003b98       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003b98                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003bac       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003bac                __wrap___aeabi_dcmpge
+                0x0000000010003ba8       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003ba8                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003bbc        0xa CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003bbc                __wrap___aeabi_dcmpgt
+                0x0000000010003bb8        0xa CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003bb8                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010003bc6       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003bc6                __wrap___aeabi_dcmpun
- *fill*         0x0000000010003be2        0x2 
+                0x0000000010003bc2       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003bc2                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010003bde        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010003be4       0x38 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003be4                __wrap___aeabi_ui2d
-                0x0000000010003bec                __wrap___aeabi_i2d
+                0x0000000010003be0       0x38 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003be0                __wrap___aeabi_ui2d
+                0x0000000010003be8                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010003c1c       0x48 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c1c                __wrap___aeabi_d2iz
-                0x0000000010003c1c                double2int_z
+                0x0000000010003c18       0x48 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003c18                __wrap___aeabi_d2iz
+                0x0000000010003c18                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010003c64       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c64                double2uint
-                0x0000000010003c64                __wrap___aeabi_d2uiz
+                0x0000000010003c60       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003c60                double2uint
+                0x0000000010003c60                __wrap___aeabi_d2uiz
  .text.missing_double_func_shim
-                0x0000000010003c74        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003c70        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x0000000010003c80       0x98 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010003c80                __aeabi_double_init
+                0x0000000010003c7c       0x98 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003c7c                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003d18       0x2c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003d18                double_table_shim_on_use_helper
+                0x0000000010003d14       0x2c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003d14                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x0000000010003d44       0x32 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010003d44                __wrap___aeabi_lmul
- *fill*         0x0000000010003d76        0x2 
+                0x0000000010003d40       0x32 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010003d40                __wrap___aeabi_lmul
+ *fill*         0x0000000010003d72        0x2 
  .text.missing_float_func_shim
-                0x0000000010003d78        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003d74        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x0000000010003d84       0x5c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010003d84                __aeabi_float_init
+                0x0000000010003d80       0x5c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010003d80                __aeabi_float_init
  .text.__wrap_malloc
-                0x0000000010003de0       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-                0x0000000010003de0                __wrap_malloc
- .text          0x0000000010003e04       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003e04                __aeabi_mem_init
- .text.memset   0x0000000010003e14        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003e14                __wrap_memset
- .text.memcpy   0x0000000010003e20        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010003e20                __wrap___aeabi_memcpy
-                0x0000000010003e20                __wrap_memcpy
- .text._Znaj    0x0000000010003e2c        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-                0x0000000010003e2c                operator new[](unsigned int)
+                0x0000000010003ddc       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000010003ddc                __wrap_malloc
+ .text          0x0000000010003e00       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003e00                __aeabi_mem_init
+ .text.memset   0x0000000010003e10        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003e10                __wrap_memset
+ .text.memcpy   0x0000000010003e1c        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010003e1c                __wrap___aeabi_memcpy
+                0x0000000010003e1c                __wrap_memcpy
+ .text._Znaj    0x0000000010003e28        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+                0x0000000010003e28                operator new[](unsigned int)
  .text.stdio_out_chars_no_crlf
-                0x0000000010003e34       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003e30       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010003e44       0xb4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003e40       0xb4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x0000000010003ef8       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003ef4       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x0000000010003f5c       0xfc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010003f58       0xfc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010004058       0xa0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004058                __wrap_putchar
+                0x0000000010004054       0xa0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004054                __wrap_putchar
  .text.__wrap_puts
-                0x00000000100040f8       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100040f8                __wrap_puts
+                0x00000000100040f4       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100040f4                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x0000000010004134       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004134                stdio_set_driver_enabled
+                0x0000000010004130       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004130                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x0000000010004170       0xd8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004170                __wrap_vprintf
+                0x000000001000416c       0xd8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000416c                __wrap_vprintf
  .text.__wrap_printf
-                0x0000000010004248       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004248                __wrap_printf
+                0x0000000010004244       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004244                __wrap_printf
  .text.stdio_init_all
-                0x0000000010004260        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004260                stdio_init_all
+                0x000000001000425c        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000425c                stdio_init_all
  .text.resetd_init
-                0x0000000010004268        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004264        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x000000001000426c        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004268        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x0000000010004278       0x28 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004274       0x28 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x00000000100042a0        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000429c        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x00000000100042a4       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100042a0       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010004308        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004308                usbd_app_driver_get_cb
+                0x0000000010004304        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004304                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010004314       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004314                tud_cdc_line_coding_cb
+                0x0000000010004310       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004310                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x0000000010004348       0x68 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004348                stdio_usb_in_chars
+                0x0000000010004344       0x68 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004344                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x00000000100043b0       0xe4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100043ac       0xe4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x0000000010004494       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004490       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x00000000100044a4       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100044a0       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x00000000100044c8       0x90 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100044c8                stdio_usb_init
+                0x00000000100044c4       0x90 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100044c4                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010004558        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004558                tud_descriptor_device_cb
+                0x0000000010004554        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004554                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010004560        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004560                tud_descriptor_configuration_cb
+                0x000000001000455c        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000455c                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010004568       0x74 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004568                tud_descriptor_string_cb
+                0x0000000010004564       0x74 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004564                tud_descriptor_string_cb
  .text.dcd_rp2040_irq
-                0x00000000100045dc      0x21c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100045d8      0x21c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x00000000100047f8        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100047f8                dcd_int_enable
+                0x00000000100047f4        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100047f4                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010004804       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004804                dcd_set_address
+                0x0000000010004800       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004800                dcd_set_address
  .text.dcd_connect
-                0x0000000010004818       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004818                dcd_connect
+                0x0000000010004814       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004814                dcd_connect
  .text.dcd_init
-                0x0000000010004828      0x144 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004828                dcd_init
+                0x0000000010004824      0x144 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004824                dcd_init
  .text.dcd_edpt0_status_complete
-                0x000000001000496c       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000496c                dcd_edpt0_status_complete
+                0x0000000010004968       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004968                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x0000000010004988       0xf0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004988                dcd_edpt_open
+                0x0000000010004984       0xf0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004984                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x0000000010004a78       0xbc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004a78                dcd_edpt_close_all
+                0x0000000010004a74       0xbc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004a74                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x0000000010004b34       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004b34                dcd_edpt_xfer
+                0x0000000010004b30       0x24 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b30                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010004b58       0x38 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004b58                dcd_edpt_stall
+                0x0000000010004b54       0x38 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b54                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010004b90       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004b90                dcd_edpt_clear_stall
+                0x0000000010004b8c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004b8c                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0.isra.0
-                0x0000000010004bc0       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004bbc       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x0000000010004bdc       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004bdc                rp2040_usb_init
+                0x0000000010004bd8       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004bd8                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x0000000010004c28        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004c28                hw_endpoint_reset_transfer
+                0x0000000010004c24        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004c24                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x0000000010004c34       0x44 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004c34                _hw_endpoint_buffer_control_update32
+                0x0000000010004c30       0x44 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004c30                _hw_endpoint_buffer_control_update32
  .text.hw_endpoint_xfer_start
-                0x0000000010004c78      0x138 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004c78                hw_endpoint_xfer_start
+                0x0000000010004c74      0x138 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004c74                hw_endpoint_xfer_start
  .text.hw_endpoint_xfer_continue
-                0x0000000010004db0      0x1e4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010004db0                hw_endpoint_xfer_continue
+                0x0000000010004dac      0x1e4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010004dac                hw_endpoint_xfer_continue
  .text.tud_mounted
-                0x0000000010004f94       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004f94                tud_mounted
+                0x0000000010004f90       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004f90                tud_mounted
  .text.tud_suspended
-                0x0000000010004fa4       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004fa4                tud_suspended
+                0x0000000010004fa0       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004fa0                tud_suspended
  .text.tud_inited
-                0x0000000010004fb4        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004fb4                tud_inited
+                0x0000000010004fb0        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004fb0                tud_inited
  .text.tud_init
-                0x0000000010004fc0       0xd8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010004fc0                tud_init
+                0x0000000010004fbc       0xd8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010004fbc                tud_init
  .text.tud_task
-                0x0000000010005098      0x8ec CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005098                tud_task
+                0x0000000010005094      0x8ec CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005094                tud_task
  .text.dcd_event_bus_signal
-                0x0000000010005984      0x120 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005984                dcd_event_bus_signal
+                0x0000000010005980      0x120 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005980                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x0000000010005aa4       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005aa4                dcd_event_bus_reset
+                0x0000000010005aa0       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005aa0                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x0000000010005af8       0x50 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005af8                dcd_event_setup_received
+                0x0000000010005af4       0x50 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005af4                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x0000000010005b48       0x68 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005b48                dcd_event_xfer_complete
+                0x0000000010005b44       0x68 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005b44                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x0000000010005bb0       0x80 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005bb0                usbd_open_edpt_pair
+                0x0000000010005bac       0x80 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005bac                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x0000000010005c30       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005c30                usbd_edpt_open
+                0x0000000010005c2c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005c2c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010005c60       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005c60                usbd_edpt_claim
+                0x0000000010005c5c       0x64 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005c5c                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000010005cc4       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005cc4                usbd_edpt_release
+                0x0000000010005cc0       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005cc0                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000010005d10       0x48 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005d10                usbd_edpt_xfer
+                0x0000000010005d0c       0x48 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005d0c                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010005d58       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005d58                tud_control_status
+                0x0000000010005d54       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005d54                tud_control_status
  .text.tud_control_xfer
-                0x0000000010005d88       0xbc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005d88                tud_control_xfer
+                0x0000000010005d84       0xbc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005d84                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010005e44       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005e44                usbd_control_reset
+                0x0000000010005e40       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005e40                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010005e58        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005e58                usbd_control_set_complete_callback
+                0x0000000010005e54        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005e54                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010005e64       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005e64                usbd_control_set_request
+                0x0000000010005e60       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005e60                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000010005e80       0xfc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005e80                usbd_control_xfer_cb
+                0x0000000010005e7c       0xfc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005e7c                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x0000000010005f7c       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005f7c                tud_cdc_n_connected
+                0x0000000010005f78       0x30 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005f78                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010005fac       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005fac                tud_cdc_n_available
+                0x0000000010005fa8       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005fa8                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x0000000010005fc4       0x70 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010005fc4                tud_cdc_n_read
+                0x0000000010005fc0       0x70 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010005fc0                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010006034       0x78 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006034                tud_cdc_n_write_flush
+                0x0000000010006030       0x78 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006030                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x00000000100060ac       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100060ac                tud_cdc_n_write
+                0x00000000100060a8       0x34 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100060a8                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x00000000100060e0       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100060e0                tud_cdc_n_write_available
+                0x00000000100060dc       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100060dc                tud_cdc_n_write_available
  .text.cdcd_init
-                0x00000000100060f8       0x7c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100060f8                cdcd_init
+                0x00000000100060f4       0x7c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100060f4                cdcd_init
  .text.cdcd_reset
-                0x0000000010006174       0x2c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006174                cdcd_reset
+                0x0000000010006170       0x2c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006170                cdcd_reset
  .text.cdcd_open
-                0x00000000100061a0       0xe4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100061a0                cdcd_open
+                0x000000001000619c       0xe4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000619c                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x0000000010006284       0xe4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006284                cdcd_control_xfer_cb
+                0x0000000010006280       0xe4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006280                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000010006368      0x148 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006368                cdcd_xfer_cb
+                0x0000000010006364      0x148 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006364                cdcd_xfer_cb
  .text.tusb_init
-                0x00000000100064b0        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100064b0                tusb_init
+                0x00000000100064ac        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100064ac                tusb_init
  .text.tusb_inited
-                0x00000000100064bc        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100064bc                tusb_inited
+                0x00000000100064b8        0x8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100064b8                tusb_inited
  .text.tu_edpt_validate
-                0x00000000100064c4       0x78 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100064c4                tu_edpt_validate
+                0x00000000100064c0       0x78 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100064c0                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x000000001000653c       0x2c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000653c                tu_edpt_bind_driver
+                0x0000000010006538       0x2c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006538                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x0000000010006568       0x78 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006568                tu_fifo_config
+                0x0000000010006564       0x78 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006564                tu_fifo_config
  .text.tu_fifo_count
-                0x00000000100065e0       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100065e0                tu_fifo_count
+                0x00000000100065dc       0x20 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100065dc                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000010006600       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006600                tu_fifo_empty
+                0x00000000100065fc       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100065fc                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000010006610       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006610                tu_fifo_remaining
+                0x000000001000660c       0x1c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000660c                tu_fifo_remaining
  .text.tu_fifo_read
-                0x000000001000662c       0x9c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000662c                tu_fifo_read
+                0x0000000010006628       0x9c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006628                tu_fifo_read
  .text.tu_fifo_read_n
-                0x00000000100066c8      0x100 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100066c8                tu_fifo_read_n
+                0x00000000100066c4      0x100 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100066c4                tu_fifo_read_n
  .text.tu_fifo_write
-                0x00000000100067c8       0x7c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100067c8                tu_fifo_write
+                0x00000000100067c4       0x7c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100067c4                tu_fifo_write
  .text.tu_fifo_write_n
-                0x0000000010006844      0x100 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006844                tu_fifo_write_n
+                0x0000000010006840      0x100 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006840                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000010006944       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006944                tu_fifo_clear
+                0x0000000010006940       0x4c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006940                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010006990       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006990                tu_fifo_set_overwritable
+                0x000000001000698c       0x3c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000698c                tu_fifo_set_overwritable
  .text.startup._retrieve_unique_id_on_boot
-                0x00000000100069cc       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100069c8       0x10 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x00000000100069dc      0x1a8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x00000000100069dc                pico_get_unique_board_id_string
+                0x00000000100069d8      0x1a8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000100069d8                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x0000000010006b84       0x40 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010006b84                flash_get_unique_id
+                0x0000000010006b80       0x40 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010006b80                flash_get_unique_id
  .text.spi_init
-                0x0000000010006bc4       0xf8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-                0x0000000010006bc4                spi_init
+                0x0000000010006bc0       0xf8 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+                0x0000000010006bc0                spi_init
  .text._ZN12pico_ssd13067SSD13068setPixelEssNS_9WriteModeE
-                0x0000000010006cbc       0x94 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006cbc                pico_ssd1306::SSD1306::setPixel(short, short, pico_ssd1306::WriteMode)
+                0x0000000010006cb8       0x94 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006cb8                pico_ssd1306::SSD1306::setPixel(short, short, pico_ssd1306::WriteMode)
  .text._ZN12pico_ssd13067SSD130610sendBufferEv
-                0x0000000010006d50       0xb8 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006d50                pico_ssd1306::SSD1306::sendBuffer()
+                0x0000000010006d4c       0xb8 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006d4c                pico_ssd1306::SSD1306::sendBuffer()
  .text._ZN12pico_ssd13067SSD1306C2EP8i2c_insttNS_4SizeE
-                0x0000000010006e08       0x98 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006e08                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
-                0x0000000010006e08                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
+                0x0000000010006e04       0x98 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006e04                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
+                0x0000000010006e04                pico_ssd1306::SSD1306::SSD1306(i2c_inst*, unsigned short, pico_ssd1306::Size)
  .text._ZN12pico_ssd13067SSD130614setOrientationEb
-                0x0000000010006ea0       0x68 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010006ea0                pico_ssd1306::SSD1306::setOrientation(bool)
+                0x0000000010006e9c       0x68 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x0000000010006e9c                pico_ssd1306::SSD1306::setOrientation(bool)
  .text._ZN11FrameBufferC2Ev
-                0x0000000010006f08       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006f08                FrameBuffer::FrameBuffer()
-                0x0000000010006f08                FrameBuffer::FrameBuffer()
+                0x0000000010006f04       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006f04                FrameBuffer::FrameBuffer()
+                0x0000000010006f04                FrameBuffer::FrameBuffer()
  .text._ZN11FrameBuffer6byteOREih
-                0x0000000010006f1c       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006f1c                FrameBuffer::byteOR(int, unsigned char)
+                0x0000000010006f18       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006f18                FrameBuffer::byteOR(int, unsigned char)
  .text._ZN11FrameBuffer7byteANDEih
-                0x0000000010006f30       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006f30                FrameBuffer::byteAND(int, unsigned char)
+                0x0000000010006f2c       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006f2c                FrameBuffer::byteAND(int, unsigned char)
  .text._ZN11FrameBuffer7byteXOREih
-                0x0000000010006f44       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006f44                FrameBuffer::byteXOR(int, unsigned char)
+                0x0000000010006f40       0x14 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006f40                FrameBuffer::byteXOR(int, unsigned char)
  .text._ZN11FrameBuffer5clearEv
-                0x0000000010006f58       0x10 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006f58                FrameBuffer::clear()
+                0x0000000010006f54       0x10 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006f54                FrameBuffer::clear()
  .text._ZN11FrameBuffer3getEv
-                0x0000000010006f68        0x4 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
-                0x0000000010006f68                FrameBuffer::get()
+                0x0000000010006f64        0x4 pico-ssd1306/libpico_ssd1306.a(FrameBuffer.cpp.obj)
+                0x0000000010006f64                FrameBuffer::get()
  .text._ZN12pico_ssd13068drawCharEPNS_7SSD1306EPKhchhNS_9WriteModeENS_8RotationE.part.0
-                0x0000000010006f6c       0xe8 pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
+                0x0000000010006f68       0xe8 pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
  .text._ZN12pico_ssd13068drawTextEPNS_7SSD1306EPKhPKchhNS_9WriteModeENS_8RotationE
-                0x0000000010007054       0xb0 pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
-                0x0000000010007054                pico_ssd1306::drawText(pico_ssd1306::SSD1306*, unsigned char const*, char const*, unsigned char, unsigned char, pico_ssd1306::WriteMode, pico_ssd1306::Rotation)
- .text.malloc   0x0000000010007104       0x14 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
-                0x0000000010007104                malloc
+                0x0000000010007050       0xb0 pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
+                0x0000000010007050                pico_ssd1306::drawText(pico_ssd1306::SSD1306*, unsigned char const*, char const*, unsigned char, unsigned char, pico_ssd1306::WriteMode, pico_ssd1306::Rotation)
+ .text.malloc   0x0000000010007100       0x14 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-malloc.o)
+                0x0000000010007100                malloc
  .text._malloc_r
-                0x0000000010007118      0x584 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
-                0x0000000010007118                _malloc_r
+                0x0000000010007114      0x584 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mallocr.o)
+                0x0000000010007114                _malloc_r
  .text.__malloc_lock
-                0x000000001000769c       0x10 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
-                0x000000001000769c                __malloc_lock
+                0x0000000010007698       0x10 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
+                0x0000000010007698                __malloc_lock
  .text.__malloc_unlock
-                0x00000000100076ac       0x10 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
-                0x00000000100076ac                __malloc_unlock
- .text._sbrk_r  0x00000000100076bc       0x24 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
-                0x00000000100076bc                _sbrk_r
- .text.strlen   0x00000000100076e0       0x5c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x00000000100076e0                strlen
+                0x00000000100076a8       0x10 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-mlock.o)
+                0x00000000100076a8                __malloc_unlock
+ .text._sbrk_r  0x00000000100076b8       0x24 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-sbrkr.o)
+                0x00000000100076b8                _sbrk_r
+ .text.strlen   0x00000000100076dc       0x5c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x00000000100076dc                strlen
  .text._malloc_trim_r
-                0x000000001000773c       0x9c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
-                0x000000001000773c                _malloc_trim_r
- .text._free_r  0x00000000100077d8      0x1c4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
-                0x00000000100077d8                _free_r
+                0x0000000010007738       0x9c /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
+                0x0000000010007738                _malloc_trim_r
+ .text._free_r  0x00000000100077d4      0x1c4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-freer.o)
+                0x00000000100077d4                _free_r
  .text.__retarget_lock_acquire_recursive
-                0x000000001000799c        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
-                0x000000001000799c                __retarget_lock_acquire_recursive
+                0x0000000010007998        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
+                0x0000000010007998                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x00000000100079a0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
-                0x00000000100079a0                __retarget_lock_release_recursive
+                0x000000001000799c        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-lock.o)
+                0x000000001000799c                __retarget_lock_release_recursive
  *(.fini)
- .fini          0x00000000100079a4        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x00000000100079a4                _fini
+ .fini          0x00000000100079a0        0x4 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x00000000100079a0                _fini
+ *fill*         0x00000000100079a4        0x4 
  .fini.__stub   0x00000000100079a8       0x80 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
@@ -1923,124 +1924,125 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
 .iplt           0x0000000010007a28        0x0
  .iplt          0x0000000010007a28        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010007a28      0xed8
+.rodata         0x0000000010007a28      0xed0
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x0000000010007a28       0x91 CMakeFiles/multi_spi.dir/main.cpp.obj
- *fill*         0x0000000010007ab9        0x3 
+                0x0000000010007a28       0x87 CMakeFiles/multi_spi.dir/main.cpp.obj
+ *fill*         0x0000000010007aaf        0x1 
  .rodata._ZL10font_12x16
-                0x0000000010007abc      0x8ea CMakeFiles/multi_spi.dir/main.cpp.obj
- *fill*         0x00000000100083a6        0x2 
+                0x0000000010007ab0      0x8ea CMakeFiles/multi_spi.dir/main.cpp.obj
+ *fill*         0x000000001000839a        0x2 
  .rodata.spin_lock_claim_unused.str1.4
-                0x00000000100083a8       0x1b CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x00000000100083c3        0x1 
+                0x000000001000839c       0x1b CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x00000000100083b7        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x00000000100083c4       0x22 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x00000000100083e6        0x2 
+                0x00000000100083b8       0x22 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100083da        0x2 
  .rodata.panic.str1.4
-                0x00000000100083e8       0x12 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x00000000100083fa        0x2 
+                0x00000000100083dc       0x12 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x00000000100083ee        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x00000000100083fc        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100083f0        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x0000000010008408       0x15 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x000000001000841d        0x3 
+                0x00000000100083fc       0x15 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010008411        0x3 
  .rodata._vsnprintf
-                0x0000000010008420      0x1e0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010008414      0x1e0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x00000000100085f4        0x4 
  .rodata.pow10.0
-                0x0000000010008600       0x50 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100085f8       0x50 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x0000000010008650       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010008648       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x0000000010008668       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010008660       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
                                           0x1 (size before relaxing)
  .rodata.__wrap_malloc.str1.4
-                0x0000000010008668        0xe CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- *fill*         0x0000000010008676        0x2 
+                0x0000000010008660        0xe CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ *fill*         0x000000001000866e        0x2 
  .rodata.str1.4
-                0x0000000010008678       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008670       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x00000000100086cc        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100086c4        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x00000000100086d8        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100086d0        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x00000000100086e4        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100086dc        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x00000000100086f0        0x2 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x00000000100086f2        0x2 
+                0x00000000100086e8        0x2 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x00000000100086ea        0x2 
  .rodata._resetd_driver
-                0x00000000100086f4       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100086ec       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x000000001000870c       0x13 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x000000001000871f        0x1 
+                0x0000000010008704       0x13 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x0000000010008717        0x1 
  .rodata.__bi_93.0
-                0x0000000010008720        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010008718        0xc CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x000000001000872c       0x2a CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010008756        0x2 
+                0x0000000010008724       0x2a CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000874e        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010008758       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010008750       0x54 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x00000000100087ac       0x12 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x00000000100087be        0x2 
+                0x00000000100087a4       0x12 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x00000000100087b6        0x2 
  .rodata.usbd_desc_str
-                0x00000000100087c0       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x00000000100087b8       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x00000000100087d8       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100087d0       0x14 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.isra.0.str1.4
-                0x00000000100087ec       0x1f CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x000000001000880b        0x1 
+                0x00000000100087e4       0x1f CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010008803        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x000000001000880c       0x29 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010008835        0x3 
+                0x0000000010008804       0x29 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x000000001000882d        0x3 
  .rodata.str1.4
-                0x0000000010008838        0x7 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x000000001000883f        0x1 
+                0x0000000010008830        0x7 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010008837        0x1 
  .rodata.tud_task
-                0x0000000010008840       0x8c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010008838       0x8c CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x00000000100088cc       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .rodata        0x00000000100088e4       0x19 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
-                0x0000000010008900                . = ALIGN (0x4)
- *fill*         0x00000000100088fd        0x3 
+                0x00000000100088c4       0x18 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .rodata        0x00000000100088dc       0x19 pico-ssd1306/libpico_ssd1306.a(ssd1306.cpp.obj)
+                0x00000000100088f8                . = ALIGN (0x4)
+ *fill*         0x00000000100088f5        0x3 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010008900                . = ALIGN (0x4)
+                0x00000000100088f8                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010008900        0x0
- .rel.iplt      0x0000000010008900        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x00000000100088f8        0x0
+ .rel.iplt      0x00000000100088f8        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010008900                __exidx_start = .
+                0x00000000100088f8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010008900                __exidx_end = .
-                0x0000000010008900                . = ALIGN (0x4)
-                0x0000000010008900                __binary_info_start = .
+                0x00000000100088f8                __exidx_end = .
+                0x00000000100088f8                . = ALIGN (0x4)
+                0x00000000100088f8                __binary_info_start = .
 
-.binary_info    0x0000000010008900       0x20
+.binary_info    0x00000000100088f8       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010008900        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100088f8        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010008904        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100088fc        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010008908        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008900        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x000000001000890c        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008904        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010008910        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008908        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010008914        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000890c        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010008918        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010008910        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr93
-                0x000000001000891c        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010008920                __binary_info_end = .
-                0x0000000010008920                . = ALIGN (0x4)
-                0x0000000010008920                __etext = .
+                0x0000000010008914        0x4 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010008918                __binary_info_end = .
+                0x0000000010008918                . = ALIGN (0x4)
+                0x0000000010008918                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2049,7 +2051,7 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
                 0x0000000020000000       0xc0 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0xc90 load address 0x0000000010008920
+.data           0x00000000200000c0      0xc90 load address 0x0000000010008918
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2178,27 +2180,27 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
                 0x0000000020000d50                . = ALIGN (0x4)
                 0x0000000020000d50                __data_end__ = .
 
-.igot.plt       0x0000000020000d50        0x0 load address 0x00000000100095b0
+.igot.plt       0x0000000020000d50        0x0 load address 0x00000000100095a8
  .igot.plt      0x0000000020000d50        0x0 /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000d50        0x0 load address 0x00000000100095b0
+                0x0000000020000d50        0x0 load address 0x00000000100095a8
                 0x0000000020000d50                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100095b0
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100095a8
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100095b0                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100095a8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100095b0
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100095a8
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100095b0                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100095a8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000d50      0xdc4
                 0x0000000020000d50                . = ALIGN (0x4)
@@ -2322,8 +2324,8 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-non
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100095b0        0x0
-                0x00000000100095b0                __flash_binary_end = .
+.flash_end      0x00000000100095a8        0x0
+                0x00000000100095a8                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2404,7 +2406,7 @@ LOAD CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pic
 LOAD CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 LOAD CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 LOAD pico-ssd1306/libpico_ssd1306.a
-LOAD /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//ccaK3LQy.o
+LOAD /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//cciIL8YV.o
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2530,7 +2532,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000088e       0x2c pico-ssd1306/libpico_ssd1306.a(TextRenderer.cpp.obj)
  .ARM.attributes
-                0x00000000000008ba       0x22 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//ccaK3LQy.o
+                0x00000000000008ba       0x22 /var/folders/c2/6dfmhgb13q93z58f1xvwt4zr0000gn/T//cciIL8YV.o
  .ARM.attributes
                 0x00000000000008dc       0x1e /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

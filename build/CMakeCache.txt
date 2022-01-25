@@ -248,9 +248,6 @@ PICO_BOARD:STRING=adafruit_feather_rp2040
 //PICO board header directories
 PICO_BOARD_HEADER_DIRS:STRING=
 
-//No help, variable specified on the command line.
-PICO_BUILD:UNINITIALIZED=adafruit_feather_rp2040
-
 //Build HTML Doxygen docs
 PICO_BUILD_DOCS:BOOL=OFF
 
@@ -486,7 +483,7 @@ PICO_BOOT_STAGE2_DIR:INTERNAL=/Users/mattgardner/pico/pico-sdk/src/rp2_common/bo
 PICO_CMAKE_PRELOAD_PLATFORM_DIR:INTERNAL=/Users/mattgardner/pico/pico-sdk/cmake/preload/platforms
 PICO_CMAKE_PRELOAD_PLATFORM_FILE:INTERNAL=/Users/mattgardner/pico/pico-sdk/cmake/preload/platforms/rp2040.cmake
 PICO_COMPILER_ASM:INTERNAL=/usr/local/bin/arm-none-eabi-gcc
-PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs
+PICO_DOXYGEN_EXCLUDE_PATHS:INTERNAL= /Users/mattgardner/pico/pico-sdk/src/rp2_common/cmsis /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs
 PICO_DOXYGEN_PATHS:INTERNAL= /Users/mattgardner/pico/pico-sdk/src/common /Users/mattgardner/pico/pico-sdk/src/rp2_common /Users/mattgardner/pico/pico-sdk/src/rp2040
 PICO_NO_HARDWARE:INTERNAL=0
 PICO_ON_DEVICE:INTERNAL=1

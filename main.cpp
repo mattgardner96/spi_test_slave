@@ -3,6 +3,7 @@
 #include "pico-ssd1306/textRenderer/TextRenderer.h"
 #include "pico/printf.h"
 #include "hardware/spi.h"
+#include "hardware/gpio.h"
 
 #define SPI_CSN_PIN 1
 
@@ -42,7 +43,7 @@ int main()
     display.setOrientation(0);
 
     // SPI CONFIGURATION
-    printf("%s", "Initializing SPI\n");
+    printf("%s", "Initializing SPI, slave side\n");
     spi_init(spi0, 1000 * 1000); //initialize spi0 at 1MHz
     gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI);
     gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
@@ -52,17 +53,20 @@ int main()
     spi_set_format(spi0,8,SPI_CPOL_0,SPI_CPHA_0,SPI_LSB_FIRST);
     spi_set_slave(spi0, true);
 
-    if (gpio_is_pulled_down(SPI_CSN_PIN) || gpio_is_pulled_up(SPI_CSN_PIN)) {
-        gpio_disable_pulls(SPI_CSN_PIN);
-        printf("correcting pulls\n");
-    }
+    // if (gpio_is_pulled_down(SPI_CSN_PIN) || gpio_is_pulled_up(SPI_CSN_PIN)) {
+    //     gpio_disable_pulls(SPI_CSN_PIN);
+    //     printf("correcting pulls\n");
+    // }
 
-    printf("init input contents: %s\n", input);
+    gpio_set_pulls(SPI_CSN_PIN,false,false);
+    gpio_set_pulls(PICO_DEFAULT_SPI_SCK_PIN,false,false);
+    gpio_set_pulls(PICO_DEFAULT_SPI_TX_PIN,false,false);
+    gpio_set_pulls(PICO_DEFAULT_SPI_RX_PIN,false,false);
+
+    printf("init input contents: %s\n",input);
 
     while (1)
     {
-
-        sleep_ms(1000);
 
         // if(spi_is_writable(spi0)) {
         //     printf("%s","Writing to SPI\n");
@@ -79,7 +83,9 @@ int main()
             read_bytes = spi_read_blocking(spi0,0x0,input,4);
             printf("read %d bytes\n",read_bytes);
 
-            printf("input contents: %#x\n",*input);
+            printf("input contents: %s,%x\n",input,input[0]);
+
+            printf("pulldown status%d\n",gpio_is_pulled_down(PICO_DEFAULT_SPI_TX_PIN));
 
             // missing a line where the contents of input goes into textBuffer
 
