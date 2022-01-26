@@ -2490,7 +2490,8 @@ CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_std
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h
+  /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h
 
 CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c \
   /Users/mattgardner/pico/pico-sdk/lib/tinyusb/src/tusb.h \
@@ -2808,6 +2809,7 @@ CMakeFiles/multi_spi.dir/Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_std
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pll.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h \
@@ -2900,6 +2902,7 @@ CMakeFiles/multi_spi.dir/main.cpp.obj: ../main.cpp \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /Users/mattgardner/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/mattgardner/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   ../pico-ssd1306/ssd1306.h \
   /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/string.h \
   /usr/local/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/reent.h \

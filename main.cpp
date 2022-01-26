@@ -44,6 +44,7 @@ int main()
 
     // SPI CONFIGURATION
     printf("%s", "Initializing SPI, slave side\n");
+    spi_set_slave(spi0, true);
     spi_init(spi0, 1000 * 1000); //initialize spi0 at 1MHz
     gpio_set_function(PICO_DEFAULT_SPI_SCK_PIN, GPIO_FUNC_SPI);
     gpio_set_function(PICO_DEFAULT_SPI_TX_PIN, GPIO_FUNC_SPI);
@@ -61,6 +62,11 @@ int main()
     gpio_set_pulls(PICO_DEFAULT_SPI_SCK_PIN,false,false);
     gpio_set_pulls(PICO_DEFAULT_SPI_TX_PIN,false,false);
     gpio_set_pulls(PICO_DEFAULT_SPI_RX_PIN,false,false);
+
+    gpio_set_dir(PICO_DEFAULT_SPI_SCK_PIN,false);
+    gpio_set_dir(PICO_DEFAULT_SPI_RX_PIN,false);
+    gpio_set_dir(PICO_DEFAULT_SPI_TX_PIN,false);
+    gpio_set_dir(SPI_CSN_PIN,false);
 
     printf("init input contents: %s\n",input);
 
@@ -86,13 +92,12 @@ int main()
 
             printf("pulldown status%d\n",gpio_is_pulled_down(PICO_DEFAULT_SPI_TX_PIN));
 
-            // missing a line where the contents of input goes into textBuffer
-            sprintf(textBuffer,"%s",input);
-
             // // clear whatever is on the screen (old text)
             drawText(&display, font_12x16,textBuffer, 0, 0, pico_ssd1306::WriteMode::SUBTRACT); // add the text
-            display.sendBuffer();                                                                // write to display
+            display.sendBuffer();  
 
+            // missing a line where the contents of input goes into textBuffer
+            sprintf(textBuffer,"%s",input);
 
             // Draw text on display
             // After passing a pointer to display, we need to tell the function what font and text to use
